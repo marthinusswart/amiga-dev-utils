@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Ignore subfolders in bin/ but not files directly in bin/
+bin/*/
+
+
